@@ -1,0 +1,5 @@
+
+
+$ kubectl get pvc
+NAME         STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS       AGE
+pg-storage   Bound    pvc-55eea3b9-14ac-48fa-b681-bb105fe5b3cc   10Gi       RWX            csi-ceph-ssd-ms1   100s
